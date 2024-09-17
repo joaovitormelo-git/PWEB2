@@ -1,0 +1,57 @@
+<html lang="pt-BR">
+
+</html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulação de DOM com Eventos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        #content {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+        }
+
+        #myLink {
+            color: blue;
+            text-decoration: none;
+
+
+        }
+
+        #myLink:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Manipulação de DOM com Eventos</h1>
+    <div id="content">
+        <h2>Conteúdo Original</h2>
+        <p>Este é um parágrafo dentro da div.</p>
+        <table id="infoTable" border="1">
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+            </tr>
+        </table>
+        <a href="#" id="myLink">Clique aqui</a>
+    </div>
+
+    <!-- Botões para disparar eventos -->
+    <button id="addRowBtn">Adicionar Linha à Tabela</button>
+    <button id="updateContentBtn">Atualizar Conteúdo</button>
+    <button id="addDivBtn">Adicionar Novo Bloco</button>
+    <button id="removeParagraphBtn">Remover Parágrafo</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
